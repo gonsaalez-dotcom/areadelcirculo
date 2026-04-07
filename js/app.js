@@ -1,7 +1,7 @@
 function areaDelCirculo() {
     let diametro = parseInt(prompt("Ingrese el diámetro (cm)"));
     let radio= (diametro / 2);
-    let area=(Math.PI * Math.pow(radio, 2));
+    let area=(Math.PI.toFixed(2) * Math.pow(radio, 2));
 
     if (area > 0){
 
